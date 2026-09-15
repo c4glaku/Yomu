@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F5F51CD1BF1A9B3EC4430EF /* WordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDE655DBF05FD4D713CF6D5 /* WordsView.swift */; };
+		24DA1E6BF65E1784CDFCD5D1 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5991B99516ACD4506EA3D3F /* QuizView.swift */; };
+		35DC7C1BB87984D983CB81A6 /* SpeechPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB71670515A85C2B263F7627 /* SpeechPlayer.swift */; };
+		3D1A4A4771A4026B409ED140 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062118B1D8D2EB0D51E84CB0 /* SettingsView.swift */; };
+		3F5C1D06184AF9F6EA77208C /* ReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396080BA7748D2FE9399720B /* ReaderView.swift */; };
+		4E381EA106DF21890A319045 /* SelectablePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED3B04AD0EEF34B2F462AFB /* SelectablePage.swift */; };
+		54466A0C5AB01CF8537BB0A1 /* DictionarySheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04800BA45338888EC69F1BB0 /* DictionarySheet.swift */; };
+		764D8FF5D8FF9C066A0AC8C7 /* MacWindowConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98625689460905CB71623CBA /* MacWindowConfiguration.swift */; };
+		812FA0EF9D21ADE4908B7BAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C94A555F93AC3D035C5E2B01 /* Assets.xcassets */; };
+		8289D319F3528CF7EB6EC012 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1EFE51D5E85C81BF6A212C /* Theme.swift */; };
+		8425A422296113F4648E949A /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = ACF621B96F9C4BD8D4B300FB /* PrivacyInfo.xcprivacy */; };
+		87A8CBE8BF18AE441955E0F4 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1ED12971F8FEEABBC1167F /* AppStore.swift */; };
+		8E1611B472B8F80BA2233478 /* YomuCore in Frameworks */ = {isa = PBXBuildFile; productRef = 7135EE2CE34F4BF8CFD0287E /* YomuCore */; };
+		B2EBB505B53D38DBB05B06E1 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359609828477CFD626A1EADD /* ActivityView.swift */; };
+		B4AFB1FD23D25F3CA7893D60 /* SessionSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4370DA6BDC1EC0D5A98E805E /* SessionSetupView.swift */; };
+		D96178BCE2015800B2F8E1CF /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C3CEA1430CD7E63A667649 /* RootView.swift */; };
+		F666C49CBEC895EED9A9FAC0 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757D44BEF3121F451BF5DFE2 /* LibraryView.swift */; };
+		F6C0AAE373588C9B52FFEBCE /* YomuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3953E053B88C2823CA0B1C08 /* YomuApp.swift */; };
+		FB869F6D0D793308FA51D867 /* YomuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47315F7FD495342948BD7C51 /* YomuUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79AA71BF99D33DCA82615EF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02AAF5138E9BB6118181EB84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8B3E409A8D22ABFB20C0A72;
+			remoteInfo = Yomu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04800BA45338888EC69F1BB0 /* DictionarySheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionarySheet.swift; sourceTree = "<group>"; };
+		062118B1D8D2EB0D51E84CB0 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		06B6ED6CC09128186329ACDB /* YomuMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = YomuMac.entitlements; sourceTree = "<group>"; };
+		2E688D2CD93211C1D9472840 /* Yomu.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Yomu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		359609828477CFD626A1EADD /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		3953E053B88C2823CA0B1C08 /* YomuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YomuApp.swift; sourceTree = "<group>"; };
+		396080BA7748D2FE9399720B /* ReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderView.swift; sourceTree = "<group>"; };
+		3BDE655DBF05FD4D713CF6D5 /* WordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsView.swift; sourceTree = "<group>"; };
+		3F1ED12971F8FEEABBC1167F /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
+		40C3CEA1430CD7E63A667649 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		4370DA6BDC1EC0D5A98E805E /* SessionSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionSetupView.swift; sourceTree = "<group>"; };
+		47315F7FD495342948BD7C51 /* YomuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YomuUITests.swift; sourceTree = "<group>"; };
+		4E728E79E4DDA1F321BEE5E3 /* YomuUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = YomuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F1EFE51D5E85C81BF6A212C /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		757D44BEF3121F451BF5DFE2 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		98625689460905CB71623CBA /* MacWindowConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacWindowConfiguration.swift; sourceTree = "<group>"; };
+		9ED3B04AD0EEF34B2F462AFB /* SelectablePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectablePage.swift; sourceTree = "<group>"; };
+		ACF621B96F9C4BD8D4B300FB /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		C94A555F93AC3D035C5E2B01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E5991B99516ACD4506EA3D3F /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		EE43F3946A6BEEF41EF2C3FC /* JapeneseApp */ = {isa = PBXFileReference; lastKnownFileType = folder; name = JapeneseApp; path = .; sourceTree = SOURCE_ROOT; };
+		FB71670515A85C2B263F7627 /* SpeechPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechPlayer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07E809B964AC0944E0341B4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E1611B472B8F80BA2233478 /* YomuCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CBE1333AAA19049865C4D19 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3F1ED12971F8FEEABBC1167F /* AppStore.swift */,
+				C94A555F93AC3D035C5E2B01 /* Assets.xcassets */,
+				ACF621B96F9C4BD8D4B300FB /* PrivacyInfo.xcprivacy */,
+				FB71670515A85C2B263F7627 /* SpeechPlayer.swift */,
+				3953E053B88C2823CA0B1C08 /* YomuApp.swift */,
+				06B6ED6CC09128186329ACDB /* YomuMac.entitlements */,
+				C4A6FFCCB3B5656E417F1A77 /* Components */,
+				5FCAE4D5764B6C6D6825CCE5 /* Views */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5FCAE4D5764B6C6D6825CCE5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				359609828477CFD626A1EADD /* ActivityView.swift */,
+				04800BA45338888EC69F1BB0 /* DictionarySheet.swift */,
+				757D44BEF3121F451BF5DFE2 /* LibraryView.swift */,
+				E5991B99516ACD4506EA3D3F /* QuizView.swift */,
+				396080BA7748D2FE9399720B /* ReaderView.swift */,
+				40C3CEA1430CD7E63A667649 /* RootView.swift */,
+				4370DA6BDC1EC0D5A98E805E /* SessionSetupView.swift */,
+				062118B1D8D2EB0D51E84CB0 /* SettingsView.swift */,
+				3BDE655DBF05FD4D713CF6D5 /* WordsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		60C5D98B734ABFBF89EDFC1F /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				EE43F3946A6BEEF41EF2C3FC /* JapeneseApp */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		61CDFB33F08F82DCB54200C3 = {
+			isa = PBXGroup;
+			children = (
+				4CBE1333AAA19049865C4D19 /* App */,
+				60C5D98B734ABFBF89EDFC1F /* Packages */,
+				F65AB73576F686DBE1141959 /* YomuUITests */,
+				FD90728D1960EB8A82DF7543 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4A6FFCCB3B5656E417F1A77 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				98625689460905CB71623CBA /* MacWindowConfiguration.swift */,
+				9ED3B04AD0EEF34B2F462AFB /* SelectablePage.swift */,
+				4F1EFE51D5E85C81BF6A212C /* Theme.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		F65AB73576F686DBE1141959 /* YomuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				47315F7FD495342948BD7C51 /* YomuUITests.swift */,
+			);
+			name = YomuUITests;
+			path = Tests/YomuUITests;
+			sourceTree = "<group>";
+		};
+		FD90728D1960EB8A82DF7543 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E688D2CD93211C1D9472840 /* Yomu.app */,
+				4E728E79E4DDA1F321BEE5E3 /* YomuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8B3E409A8D22ABFB20C0A72 /* Yomu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD90D27A54899DA6F04D4B55 /* Build configuration list for PBXNativeTarget "Yomu" */;
+			buildPhases = (
+				4975142AD39DFA2AC9A97C41 /* Sources */,
+				9C48D9BD4E654361B43E1FFE /* Resources */,
+				07E809B964AC0944E0341B4E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Yomu;
+			packageProductDependencies = (
+				7135EE2CE34F4BF8CFD0287E /* YomuCore */,
+			);
+			productName = Yomu;
+			productReference = 2E688D2CD93211C1D9472840 /* Yomu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE195466858601872DE5AFBC /* YomuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78A1E32EF9C6DB7958B2C4A2 /* Build configuration list for PBXNativeTarget "YomuUITests" */;
+			buildPhases = (
+				6EE16A1137A68211C8886F08 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04C85228B3AF5665C307C8DC /* PBXTargetDependency */,
+			);
+			name = YomuUITests;
+			packageProductDependencies = (
+			);
+			productName = YomuUITests;
+			productReference = 4E728E79E4DDA1F321BEE5E3 /* YomuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02AAF5138E9BB6118181EB84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					FE195466858601872DE5AFBC = {
+						TestTargetID = C8B3E409A8D22ABFB20C0A72;
+					};
+				};
+			};
+			buildConfigurationList = 3FEFA31D63765AB2A94F2F1E /* Build configuration list for PBXProject "Yomu" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 61CDFB33F08F82DCB54200C3;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				3CB17AA498CF84694F164988 /* XCLocalSwiftPackageReference "." */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FD90728D1960EB8A82DF7543 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8B3E409A8D22ABFB20C0A72 /* Yomu */,
+				FE195466858601872DE5AFBC /* YomuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C48D9BD4E654361B43E1FFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				812FA0EF9D21ADE4908B7BAA /* Assets.xcassets in Resources */,
+				8425A422296113F4648E949A /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4975142AD39DFA2AC9A97C41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2EBB505B53D38DBB05B06E1 /* ActivityView.swift in Sources */,
+				87A8CBE8BF18AE441955E0F4 /* AppStore.swift in Sources */,
+				54466A0C5AB01CF8537BB0A1 /* DictionarySheet.swift in Sources */,
+				F666C49CBEC895EED9A9FAC0 /* LibraryView.swift in Sources */,
+				764D8FF5D8FF9C066A0AC8C7 /* MacWindowConfiguration.swift in Sources */,
+				24DA1E6BF65E1784CDFCD5D1 /* QuizView.swift in Sources */,
+				3F5C1D06184AF9F6EA77208C /* ReaderView.swift in Sources */,
+				D96178BCE2015800B2F8E1CF /* RootView.swift in Sources */,
+				4E381EA106DF21890A319045 /* SelectablePage.swift in Sources */,
+				B4AFB1FD23D25F3CA7893D60 /* SessionSetupView.swift in Sources */,
+				3D1A4A4771A4026B409ED140 /* SettingsView.swift in Sources */,
+				35DC7C1BB87984D983CB81A6 /* SpeechPlayer.swift in Sources */,
+				8289D319F3528CF7EB6EC012 /* Theme.swift in Sources */,
+				0F5F51CD1BF1A9B3EC4430EF /* WordsView.swift in Sources */,
+				F6C0AAE373588C9B52FFEBCE /* YomuApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EE16A1137A68211C8886F08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB869F6D0D793308FA51D867 /* YomuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04C85228B3AF5665C307C8DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8B3E409A8D22ABFB20C0A72 /* Yomu */;
+			targetProxy = 79AA71BF99D33DCA82615EF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25684646F5D1B77E4D357B3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yomu.reader.uitests;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Yomu;
+			};
+			name = Release;
+		};
+		32FCF2C81AAC217C581F0D53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_ENTITLEMENTS[sdk=macosx*]" = App/YomuMac.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Yomu;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yomu.reader;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		651F726A53D8F93D38569ADF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		6C0D59472B8F3D1C4D1F96B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yomu.reader.uitests;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Yomu;
+			};
+			name = Debug;
+		};
+		6E092F576F03D0EEF2226660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_ENTITLEMENTS[sdk=macosx*]" = App/YomuMac.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Yomu;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yomu.reader;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A431EF5675984AF945FFAB42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FEFA31D63765AB2A94F2F1E /* Build configuration list for PBXProject "Yomu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				651F726A53D8F93D38569ADF /* Debug */,
+				A431EF5675984AF945FFAB42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		78A1E32EF9C6DB7958B2C4A2 /* Build configuration list for PBXNativeTarget "YomuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C0D59472B8F3D1C4D1F96B8 /* Debug */,
+				25684646F5D1B77E4D357B3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BD90D27A54899DA6F04D4B55 /* Build configuration list for PBXNativeTarget "Yomu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32FCF2C81AAC217C581F0D53 /* Debug */,
+				6E092F576F03D0EEF2226660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		3CB17AA498CF84694F164988 /* XCLocalSwiftPackageReference "." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = .;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7135EE2CE34F4BF8CFD0287E /* YomuCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = YomuCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 02AAF5138E9BB6118181EB84 /* Project object */;
+}

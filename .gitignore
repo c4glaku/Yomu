@@ -1,0 +1,35 @@
+# macOS metadata
+.DS_Store
+
+# Build products and local caches
+.build/
+.cache/
+build/
+DerivedData/
+Dist/
+*.xcarchive
+*.xcresult
+*.dSYM/
+*.ipa
+
+# Local Xcode and Swift Package Manager state
+*.xcuserstate
+xcuserdata/
+.swiftpm/
+
+# Generated screenshots (curated previews live in Documentation/)
+Screenshots/
+
+# Python tooling
+__pycache__/
+*.py[cod]
+.venv/
+
+# Local secrets and signing credentials
+.env
+.env.*
+!.env.example
+*.p12
+*.p8
+*.mobileprovision
+*.provisionprofile
