@@ -10,7 +10,7 @@ A native SwiftUI app for learning Japanese through books. Built for iPhone and i
 
 No API key, server, account, or third-party Swift dependency is required. The complete offline dictionary is already bundled. To run on a physical device, select your development team under the Yomu target’s **Signing & Capabilities**, and use a unique bundle identifier if needed.
 
-The working name is **Yomu** (読む, “to read”). The current emblem and app icon are placeholders for your Procreate logo. Replace the icon in `App/Assets.xcassets/AppIcon.appiconset` and the in-app `BrandMark` in `App/Components/Theme.swift` when the artwork is ready.
+The working name is **Yomu** (読む, “to read”). The current emblem and app icon are placeholders for my Procreate logo. Will replace the icon in `App/Assets.xcassets/AppIcon.appiconset` and the in-app `BrandMark` in `App/Components/Theme.swift` when the artwork is ready.
 
 Previews: [iPhone, light](Documentation/Previews/iphone-library-light.png) · [iPhone, dark](Documentation/Previews/iphone-library-dark.png) · [iPad](Documentation/Previews/ipad-library-light.png) · [Mac library](Documentation/Previews/mac-library.png) · [Mac reader](Documentation/Previews/mac-reader.png).
 
